@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     {% block cssFile %}<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+     {% endblock %}
+
+    <title>Document</title>
+</head>
+<body>
+    {% block header %}
+    <head>
+        <div class="header">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="">
+            <p>Add2CartCourier e-Signature Platform</p>
+        </div>
+    </head>
+    {% endblock %}
+    {% block content %}
+        <div class="draw-area-container">
+            <p id="caption">Draw your eSignature here</p>
+           
+            <canvas id="draw-area" width="300" height="300"></canvas>
+
+            <!-- <div class="draw-tools">
+                <div class="color-picker-container">
+                    <input type="color" name="" id="color-picker">
+                </div>
+
+                <div class="width-setter-continer">
+                    <p>Width</p>
+                    <div class="progress-container">
+                        <span class="toggler"></span><span class="progress"></span>
+                    </div>
+                </div>
+            </div> -->
+            <div class="btn-actions">
+                <div id="btn-save">Send</div>
+                <div id="btn-clear">Clear</div>
+            </div>
+            
+        </div>        
+    {% endblock %}
+
+    {% block jsFile %}
+        <script src="{{ url_for('static', filename='js/signature.js') }}"></script>
+    {% endblock %}
+
+</body>
+</html>
+
+<!-- <label for="olor-picker">Change color:</label><input type="color"  name="color-picker" id="color-picker"> -->

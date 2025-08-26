@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.header{
+    width: 100%;
+    padding: 20px;
+    background-color: #fbfb4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #465525;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.header img{
+    width: 90px;
+    height: 80%;
+}
+
+
+.draw-area-container{
+    width: 100%;
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.draw-area-container #caption{
+    width: 90%;
+    padding: 20px;
+    color: #010dfe;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+#draw-area{
+    margin: 10px;
+    border-radius: 8px;
+    border:2px solid #d3d3d3;
+    /* cursor: pointer; */
+}
+
+.draw-tools{
+    width: 70%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    /* background-color: rebeccapurple; */
+    align-items: center;
+    gap: 20px;
+}
+.color-picker-container{
+    width: 100px;
+    height: 40px;
+    border-radius: 2px solid red;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px; */
+}
+#color-picker{
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.width-setter-continer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.width-setter-continer p{
+    text-align: center;
+}
+.toggler{
+    width: 20px;
+    height: 20px;
+    border: 3px solid #465525;
+    border-radius: 30px;
+}
+.progress-container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.progress{
+    width: 150px;
+    height: 4px;
+    background-color: gray;
+    border-radius: 2px;
+}
+.btn-actions{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+  
+}
+
+#btn-save {
+    padding: 10px 20px;
+    background-color:#4caf50;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#btn-clear{
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+

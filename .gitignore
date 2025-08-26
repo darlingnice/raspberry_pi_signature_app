@@ -1,0 +1,56 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+*.sqlite3
+
+# --- Virtual Environments ---
+venv/
+ENV/
+env/
+.venv/
+
+# --- Flask ---
+instance/
+*.db
+*.sqlite
+*.db-journal
+
+# Flask specific (if using uploads, sessions, etc.)
+uploads/
+*.pid
+
+# --- VS Code ---
+.vscode/
+.history/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Testing ---
+.coverage
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+htmlcov/
+
+# --- Distribution / Packaging ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
