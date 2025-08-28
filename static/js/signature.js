@@ -1,12 +1,13 @@
 let canvas = document.getElementById("draw-area");
 let ctx = canvas.getContext("2d");
 
+// set canvas properties
 ctx.lineWidth = 2;
 ctx.lineCap = "round";
 ctx.strokeStyle = "black";
 
 let drawing = false;
-let hasDrawn = false; // <-- track if user actually signed
+let hasDrawn = false; // track if user actually signed
 
 // ---------- MOUSE ----------
 canvas.addEventListener("mousedown", (e) => {
