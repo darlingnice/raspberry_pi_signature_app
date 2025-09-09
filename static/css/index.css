@@ -12,7 +12,7 @@ body{
 }
 .header{
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     background-color: #fbfb4e;
     display: flex;
     justify-content: center;
@@ -38,19 +38,19 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .draw-area-container #caption{
     width: 90%;
     padding: 20px;
     color: #010dfe;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bolder;
     text-align: center;
 }
 #draw-area{
-    margin: 10px;
+    margin: 5px;
     border-radius: 8px;
     border:2px solid #d3d3d3;
     /* cursor: pointer; */
@@ -113,12 +113,12 @@ body{
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin: 20px;
+    margin: 10px;
   
 }
 
 #btn-save {
-    padding: 10px 20px;
+    padding: 10px 35px;
     background-color:#4caf50;
     color: white;
     font-weight: bold;
@@ -127,7 +127,7 @@ body{
 }
 
 #btn-clear{
-    padding: 10px 20px;
+    padding: 10px 35px;
     background-color: #f44336;
     color: white;
     font-weight: bold;
