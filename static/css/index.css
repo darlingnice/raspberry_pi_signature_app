@@ -118,7 +118,7 @@ body{
 }
 
 #btn-save {
-    padding: 10px 40px;
+    padding: 20px 60px;
     background-color:#4caf50;
     color: white;
     font-weight: bold;
@@ -127,7 +127,7 @@ body{
 }
 
 #btn-clear{
-    padding: 10px 40px;
+    padding: 20px 60px;
     background-color: #f44336;
     color: white;
     font-weight: bold;
