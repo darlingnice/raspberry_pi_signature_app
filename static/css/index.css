@@ -38,7 +38,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5px;
+    /* margin-top: 5px; */
 }
 
 .draw-area-container #caption{
@@ -50,7 +50,7 @@ body{
     text-align: center;
 }
 #draw-area{
-    margin: 5px;
+    /* margin: 5px; */
     border-radius: 8px;
     border:2px solid #d3d3d3;
     /* cursor: pointer; */
@@ -108,7 +108,7 @@ body{
 }
 .btn-actions{
     width: 80%;
-    height: 40px;
+    min-height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
